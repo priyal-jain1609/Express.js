@@ -1,0 +1,13 @@
+http methods
+1. get: any info that is served by server to the frontend
+2. post: any info that is taken from frontend by the server
+3. put:any info updated by server to the frontend
+4.delete:any info deleted by server to the frontend
+5. patch: specific info updated by server to the frontend
+
+info ko create krna -post
+update krna - put, patch
+delete krna - delete
+read krna -get
+
+browser prespective

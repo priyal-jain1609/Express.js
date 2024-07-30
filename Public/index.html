@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Express</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sunt repellat assumenda ex voluptas laborum accusantium dicta laboriosam! Minima facilis eaque eligendi possimus quas deleniti quia quaerat mollitia ullam eius.</p>
+    <button>count:0</button>
+    <script>
+        let count=0;
+        document.querySelector("button").addEventListener("click",function(){
+            count++;
+            document.querySelector("button").innerHTML="count:"+count;
+        })
+
+    </script>
+</body>
+</html>
