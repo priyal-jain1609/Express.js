@@ -30,6 +30,9 @@ app.get("/",(req,res)=>{
 app.get("/contact",(req,res)=>{
     res.sendFile(path.resolve(__dirname,"./Public","contact.html"));
 });
+app.get("/stopwatch",(req,res)=>{
+    res.sendFile(path.resolve(__dirname,"./Public","stopwatch.html"));
+});
 // "/" is root//http methods
  // app is calling get method in express
 //get take 2 parameters route konsa h and 2nd parameter kya chalana h route se
